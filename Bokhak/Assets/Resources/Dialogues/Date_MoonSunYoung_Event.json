@@ -1,0 +1,52 @@
+{
+  "dialogues": [
+    {
+      "id": 0,
+      "type": "Talk",
+      "name": "나",
+      "text": "(은은한 커피 향이 나는 카페에 도착했다.)",
+      "image": "None",
+      "background": "Date_Cafe",
+      "next": 1
+    },
+    {
+      "id": 1,
+      "type": "Talk",
+      "name": "MoonSunYoung",
+      "text": "왔어? 여기 디저트가 정말 맛있대서 와보고 싶었어.",
+      "image": "MoonSunYoung",
+      "background": "Keep",
+      "next": 2
+    },
+    {
+      "id": 2,
+      "type": "Choice",
+      "name": "",
+      "text": "",
+      "image": "MoonSunYoung",
+      "background": "Keep",
+      "choices": [
+        { "text": "달달한 케이크를 주문한다", "next": 10 },
+        { "text": "따뜻한 아메리카노를 주문한다", "next": 20 }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "Talk",
+      "name": "MoonSunYoung",
+      "text": "우와, 진짜 달콤하다! 너랑 먹으니까 더 맛있는 것 같아.",
+      "image": "MoonSunYoung",
+      "background": "Keep",
+      "next": -1
+    },
+    {
+      "id": 20,
+      "type": "Talk",
+      "name": "MoonSunYoung",
+      "text": "역시 카페에서는 커피지. 분위기 즐길 줄 아는데?",
+      "image": "MoonSunYoung",
+      "background": "Keep",
+      "next": -1
+    }
+  ]
+}

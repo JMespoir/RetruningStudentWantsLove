@@ -1,0 +1,61 @@
+{
+  "dialogues": [
+    {
+      "id": 0,
+      "type": "Talk",
+      "name": "",
+      "text": "(러브로드는 나무가 우거져서 걷기 좋다.)",
+      "image": "None",
+      "background": "Bg_LoveRoad",
+      "next": 1
+    },
+    {
+      "id": 1,
+      "type": "Talk",
+      "name": "MoonSunYoung",
+      "text": "아, 여기서 마주치네. 수업 끝나고 가는 길이야?",
+      "image": "MoonSunYoung",
+      "background": "Keep",
+      "next": 2
+    },
+    {
+      "id": 2,
+      "type": "Talk",
+      "name": "나",
+      "text": "응. 바람 쐬러 나왔어. 넌 뭐하고 있었어?",
+      "image": "MoonSunYoung",
+      "background": "Keep",
+      "next": 3
+    },
+    {
+      "id": 3,
+      "type": "Choice",
+      "name": "",
+      "text": "",
+      "image": "MoonSunYoung",
+      "background": "Keep",
+      "choices": [
+        { "text": "옆에 서서 같이 걷는다", "next": 10 },
+        { "text": "벤치에 앉아 잠깐 이야기한다", "next": 20 }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "Talk",
+      "name": "MoonSunYoung",
+      "text": "그래, 같이 걸으니까 좋다. 혼자 걸을 때랑은 다르네.",
+      "image": "MoonSunYoung",
+      "background": "Keep",
+      "next": -1
+    },
+    {
+      "id": 20,
+      "type": "Talk",
+      "name": "MoonSunYoung",
+      "text": "잠깐 앉았다 갈까? 요즘 과제 때문에 너무 바빴거든. 힐링된다.",
+      "image": "MoonSunYoung",
+      "background": "Keep",
+      "next": -1
+    }
+  ]
+}

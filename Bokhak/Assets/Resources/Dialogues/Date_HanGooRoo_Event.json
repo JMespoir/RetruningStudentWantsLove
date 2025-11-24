@@ -1,0 +1,52 @@
+{
+  "dialogues": [
+    {
+      "id": 0,
+      "type": "Talk",
+      "name": "나",
+      "text": "(수성못에 도착했다. 물결이 반짝거린다.)",
+      "image": "None",
+      "background": "Date_SusungMot",
+      "next": 1
+    },
+    {
+      "id": 1,
+      "type": "Talk",
+      "name": "HanGooRoo",
+      "text": "바람 진짜 시원하다! 나오길 잘했지?",
+      "image": "HanGooRoo",
+      "background": "Keep",
+      "next": 2
+    },
+    {
+      "id": 2,
+      "type": "Choice",
+      "name": "",
+      "text": "",
+      "image": "HanGooRoo",
+      "background": "Keep",
+      "choices": [
+        { "text": "오리배를 타자고 한다", "next": 10 },
+        { "text": "벤치에 앉아 쉬자고 한다", "next": 20 }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "Talk",
+      "name": "HanGooRoo",
+      "text": "좋아! 내가 운전할 테니까 꽉 잡고 있어!",
+      "image": "HanGooRoo",
+      "background": "Keep",
+      "next": -1
+    },
+    {
+      "id": 20,
+      "type": "Talk",
+      "name": "HanGooRoo",
+      "text": "그래, 여기서 사람 구경하는 것도 재밌겠다.",
+      "image": "HanGooRoo",
+      "background": "Keep",
+      "next": -1
+    }
+  ]
+}

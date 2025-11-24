@@ -1,0 +1,52 @@
+{
+  "dialogues": [
+    {
+      "id": 0,
+      "type": "Talk",
+      "name": "나",
+      "text": "(도서관 열람실. 책 넘기는 소리만 들린다.)",
+      "image": "None",
+      "background": "Date_Library",
+      "next": 1
+    },
+    {
+      "id": 1,
+      "type": "Talk",
+      "name": "LeeNaChun",
+      "text": "쉿... 내가 찾던 책이 저 위쪽에 있는데 손이 안 닿아.",
+      "image": "LeeNaChun",
+      "background": "Keep",
+      "next": 2
+    },
+    {
+      "id": 2,
+      "type": "Choice",
+      "name": "",
+      "text": "",
+      "image": "LeeNaChun",
+      "background": "Keep",
+      "choices": [
+        { "text": "직접 책을 꺼내준다", "next": 10 },
+        { "text": "사다리를 가져다준다", "next": 20 }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "Talk",
+      "name": "LeeNaChun",
+      "text": "아... 고마워. 키가 커서 좋겠네.",
+      "image": "LeeNaChun",
+      "background": "Keep",
+      "next": -1
+    },
+    {
+      "id": 20,
+      "type": "Talk",
+      "name": "LeeNaChun",
+      "text": "고마워. 역시 안전제일이지?",
+      "image": "LeeNaChun",
+      "background": "Keep",
+      "next": -1
+    }
+  ]
+}

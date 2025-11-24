@@ -1,0 +1,52 @@
+{
+  "dialogues": [
+    {
+      "id": 0,
+      "type": "Talk",
+      "name": "나",
+      "text": "(PC방에 들어오자마자 키보드 소리가 요란하다.)",
+      "image": "None",
+      "background": "Date_PCRoom",
+      "next": 1
+    },
+    {
+      "id": 1,
+      "type": "Talk",
+      "name": "MyungEunHyuk",
+      "text": "빨리 앉아! 오늘 랭크 게임 무조건 이겨야 돼!",
+      "image": "MyungEunHyuk",
+      "background": "Keep",
+      "next": 2
+    },
+    {
+      "id": 2,
+      "type": "Choice",
+      "name": "",
+      "text": "",
+      "image": "MyungEunHyuk",
+      "background": "Keep",
+      "choices": [
+        { "text": "서포터로 그녀를 지켜준다", "next": 10 },
+        { "text": "캐리해서 실력을 보여준다", "next": 20 }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "Talk",
+      "name": "MyungEunHyuk",
+      "text": "와, 힐 타이밍 대박! 너 덕분에 살았어!",
+      "image": "MyungEunHyuk",
+      "background": "Keep",
+      "next": -1
+    },
+    {
+      "id": 20,
+      "type": "Talk",
+      "name": "MyungEunHyuk",
+      "text": "헐? 너 왜 이렇게 잘해? 나 버스 타는 거야?",
+      "image": "MyungEunHyuk",
+      "background": "Keep",
+      "next": -1
+    }
+  ]
+}

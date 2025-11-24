@@ -1,0 +1,61 @@
+{
+  "dialogues": [
+    {
+      "id": 0,
+      "type": "Talk",
+      "name": "",
+      "text": "(탁 트인 대운동장. 학생들이 축구를 하고 있다.)",
+      "image": "None",
+      "background": "Bg_MainField",
+      "next": 1
+    },
+    {
+      "id": 1,
+      "type": "Talk",
+      "name": "HanGooRoo",
+      "text": "헛 둘! 헛 둘! 어라? 여기서 보네?",
+      "image": "HanGooRoo",
+      "background": "Keep",
+      "next": 2
+    },
+    {
+      "id": 2,
+      "type": "Talk",
+      "name": "HanGooRoo",
+      "text": "날씨 진짜 좋다! 나랑 같이 가볍게 한 바퀴 뛸래?",
+      "image": "HanGooRoo",
+      "background": "Keep",
+      "next": 3
+    },
+    {
+      "id": 3,
+      "type": "Choice",
+      "name": "",
+      "text": "",
+      "image": "HanGooRoo",
+      "background": "Keep",
+      "choices": [
+        { "text": "좋아, 내기할까?", "next": 10 },
+        { "text": "아냐, 난 그냥 구경만 할게.", "next": 20 }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "Talk",
+      "name": "HanGooRoo",
+      "text": "오, 자신감 있는데? 지는 사람이 이온 음료 쏘기다! 준비~ 시작!",
+      "image": "HanGooRoo",
+      "background": "Keep",
+      "next": -1
+    },
+    {
+      "id": 20,
+      "type": "Talk",
+      "name": "HanGooRoo",
+      "text": "그래? 무리하진 마. 그럼 나 먼저 뛴다! 나중에 봐!",
+      "image": "HanGooRoo",
+      "background": "Keep",
+      "next": -1
+    }
+  ]
+}

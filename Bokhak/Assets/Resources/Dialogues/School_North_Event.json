@@ -1,0 +1,61 @@
+{
+  "dialogues": [
+    {
+      "id": 0,
+      "type": "Talk",
+      "name": "",
+      "text": "(북문 거리는 점심시간이라 학생들로 붐빈다.)",
+      "image": "None",
+      "background": "Bg_North",
+      "next": 1
+    },
+    {
+      "id": 1,
+      "type": "Talk",
+      "name": "RileyLoveCraft",
+      "text": "음... 매운 떡볶이냐, 달콤한 와플이냐... 그것이 문제로다.",
+      "image": "RileyLoveCraft",
+      "background": "Keep",
+      "next": 2
+    },
+    {
+      "id": 2,
+      "type": "Talk",
+      "name": "나",
+      "text": "(엄청나게 진지하게 고민하고 있다... 도와줄까?)",
+      "image": "RileyLoveCraft",
+      "background": "Keep",
+      "next": 3
+    },
+    {
+      "id": 3,
+      "type": "Choice",
+      "name": "",
+      "text": "",
+      "image": "RileyLoveCraft",
+      "background": "Keep",
+      "choices": [
+        { "text": "스트레스 풀리게 매운 떡볶이 추천!", "next": 10 },
+        { "text": "기분 좋아지게 달콤한 와플 추천!", "next": 20 }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "Talk",
+      "name": "RileyLoveCraft",
+      "text": "그치?! 역시 한국인은 매운맛이지! 같이 먹으러 갈래?",
+      "image": "RileyLoveCraft",
+      "background": "Keep",
+      "next": -1
+    },
+    {
+      "id": 20,
+      "type": "Talk",
+      "name": "RileyLoveCraft",
+      "text": "오! 좋은 생각이야. 당 충전이 필요했어. 가자 가자!",
+      "image": "RileyLoveCraft",
+      "background": "Keep",
+      "next": -1
+    }
+  ]
+}

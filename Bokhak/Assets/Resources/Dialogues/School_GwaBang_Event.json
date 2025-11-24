@@ -1,0 +1,61 @@
+{
+  "dialogues": [
+    {
+      "id": 0,
+      "type": "Talk",
+      "name": "",
+      "text": "(과방 문을 열자 맛있는 치킨 냄새가 진동한다.)",
+      "image": "None",
+      "background": "Bg_GwaBang",
+      "next": 1
+    },
+    {
+      "id": 1,
+      "type": "Talk",
+      "name": "MyungEunHyuk",
+      "text": "헙?! ...아, 뭐야 너였어? 교수님인 줄 알고 쫄았네.",
+      "image": "MyungEunHyuk",
+      "background": "Keep",
+      "next": 2
+    },
+    {
+      "id": 2,
+      "type": "Talk",
+      "name": "MyungEunHyuk",
+      "text": "이왕 걸린 거, 너도 와서 같이 먹을래? 딱 한 자리 남았어.",
+      "image": "MyungEunHyuk",
+      "background": "Keep",
+      "next": 3
+    },
+    {
+      "id": 3,
+      "type": "Choice",
+      "name": "",
+      "text": "",
+      "image": "MyungEunHyuk",
+      "background": "Keep",
+      "choices": [
+        { "text": "좋아! 닭다리는 내 거야.", "next": 10 },
+        { "text": "살찌니까 난 괜찮아.", "next": 20 }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "Talk",
+      "name": "MyungEunHyuk",
+      "text": "오~ 먹을 줄 아는데? 자, 여기 비닐장갑 껴!",
+      "image": "MyungEunHyuk",
+      "background": "Keep",
+      "next": -1
+    },
+    {
+      "id": 20,
+      "type": "Talk",
+      "name": "MyungEunHyuk",
+      "text": "에이~ 빼기는. 그럼 내가 다 먹는다? 나중에 후회하지 마!",
+      "image": "MyungEunHyuk",
+      "background": "Keep",
+      "next": -1
+    }
+  ]
+}
